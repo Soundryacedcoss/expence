@@ -1,38 +1,115 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.IncomeDiv{
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid black 2px;
+  padding: 1%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ExpenseDiv{
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid black 2px;
+  padding: 1%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: gray;
+  font-size: 20px;
   color: white;
+  
+}
+.InputDiv{
+  display: flex;
+}
+select{
+ border-style: none;
+}
+option{
+  font-size: 20px;
+
+}
+.DropDown{
+  width: 100%;
+  padding: 2%;
+  margin-top: 4%;
+  margin-left: -2%;
+  border: solid black 2px;
+  background-color: gray;
+  font-size: 20px;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+label{
+  font-size: 20px;
+}
+.History{
+  display: flex;
+  column-gap: 18%;
+  
+}
+.IncomeHistory{
+  border: solid black 2px;
+  width: 30%;
+  font-size: 20px;
+  border-radius: 10%;
+  /* background-color: #a46ef9; */
+  margin-left: 9%;
+  padding: 1%;
+  margin-top: 2%;
+  box-shadow: 5px 5px;
+  padding-bottom: 10%;
+}
+.ExpenceHistory{
+  font-size: 20px;
+  border: solid black 2px;
+  width: 35%;
+  border-radius: 10%;
+  /* background-color: #a46ef9; */
+  margin-top: 2%;
+  box-shadow: 5px 5px;
+}
+li{
+  list-style: none;
+  font-size: 20px;
+}
+table{
+  margin-left: 20%;
+  
 }
 
-.App-link {
-  color: #61dafb;
+td{
+  border: solid black 1px;
+  /* padding: 3%; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ModifyButton{
+  background-color: #4CAF50;
+}
+p{
+  font-size: 20px;
+  /* margin-left: 15%; */
+}
+.TheameLogo{
+  padding-top: 1%;
+  width: 4%;
+  margin-left: 56%;
+}
+.flex{
+  display: flex;
+  /* justify-content: center; */
+  column-gap: 15%;
 }
